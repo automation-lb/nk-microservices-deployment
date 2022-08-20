@@ -6,8 +6,8 @@ This project is basic, open source, and welcomes everyone who wishes to contribu
 # Project components
 This project is made of the following components:
 
-* **[Gateway Microservice](https://github.com/automation-lb/nk-gateway-service)**: A REST API Microservice built using [SailsJS](https://sailsjs.com/), and serves as a Gateway, and request router.
-* **[Backend Microservice](https://github.com/automation-lb/nk-backend-service)**: A REST API Microservice built using [SailsJS](https://sailsjs.com/), and serves as the first, out of many Microservices which can be incorporated and integrated with the aforementioned Gateway Service.
+* **[Gateway Microservice](https://github.com/devops-beyond-limits/nk-gateway-service)**: A REST API Microservice built using [SailsJS](https://sailsjs.com/), and serves as a Gateway, and request router.
+* **[Backend Microservice](https://github.com/devops-beyond-limits/nk-backend-service)**: A REST API Microservice built using [SailsJS](https://sailsjs.com/), and serves as the first, out of many Microservices which can be incorporated and integrated with the aforementioned Gateway Service.
 * **[Redis Database](https://redis.io/)**: An open source, in-memory data store, used for caching purposes, and for storing other ephemeral pieces of information such as JWT tokens.
 * **[Arango Database](https://www.arangodb.com/)**: A multi-model database used for storing persistent information.
 
