@@ -40,7 +40,7 @@ docker run -d --name redis --restart always -p 6379:6379 redis:6.0.5
 2. Navigate to the repository and install the dependecies: ```npm install```
 3. Install SailsJS globally: ```npm install -g sails```
 3. export the required environment variables:
-    * export JWT_SECRET=mydirtylittlesecret     // The JWT Secret
+    * export JWT_SECRET=mysecret                // The JWT Secret
     * export REDIS_HOST=localhost               // The Redis host
     * export REDIS_PORT=6379                    // The Redis port
     * export BACKEND_HOST=localhost             // The Backend host
@@ -60,7 +60,7 @@ docker run -d --name redis --restart always -p 6379:6379 redis:6.0.5
     * export ARANGODB_DB_NAME=persons            // The database name
     * export ARANGO_MAX_RETRY_ATTEMPTS=3         // The number of times a failed database connection request must be retried before signaling an error
     * export ARANGO_RETRY_DELAY=250              // The amount of wait time between connection attempts (in ms)
-    * export JWT_SECRET=mydirtylittlesecret      // The JWT secret
+    * export JWT_SECRET=mysecret                 // The JWT secret
     * export JWT_ACCESS_TOKEN_VALIDITY=3600      // The TTL of a JWT access token (in seconds)
     * export JWT_REFRESH_TOKEN_VALIDITY=86400    The TTL of a JWT refresh token (in seconds)
 4. Launch the gateway service: ```sails lift```
